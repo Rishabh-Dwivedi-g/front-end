@@ -7,16 +7,13 @@
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <meta charset="UTF-8">
+    <meta name="keywords" content="portfolio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>FootballFreaks</title>
 </head>
 <body>
     <div class="container">
@@ -28,21 +25,23 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>                        
                     </button>
-                    <a class="navbar-brand" href="#">WebSiteName</a>
+                    <a class="navbar-brand" href="#">Football Freaks</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Recents</a></li>
                         <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">G.O.A.T.s<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Page 1-1</a></li>
-                                <li><a href="#">Page 1-2</a></li>
-                                <li><a href="#">Page 1-3</a></li>
+                                <li><a href="http://messi.com" target="_blank">Messi</a></li>
+                                <li><a href="#">Ronaldo</a></li>
+                                <li><a href="#">Ronaldinho</a></li>
+                                <li><a href="#">Kaka</a></li>
+                                <li><a href="#">Maradona</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">Page 2</a></li>
-                        <li><a href="#">Page 3</a></li>
+                        <li><a href="#">Leagues</a></li>
+                        <li><a href="#">News</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -53,8 +52,8 @@
         </nav>
     
         <header class="jumbotron text-center">
-            <h1>Portfolio using Bootstrap </h1>
-            <p>Responsive that is!</p> 
+            <h1>Football</h1>
+            <p>Passion.Aggression.Talent.Trophies.</p> 
         </header>
         <div class="hero-img">
                 <img src="img/work23.png" alt="heroimage" width=100%>
@@ -87,7 +86,7 @@
                 </div>
             
                 <div class="item">
-                    <img src="img/bluep.png" alt="Bootstrap" width=100% >
+                    <img src="img/bluep.png" alt="Bootstrap" width=100% height=80%>
                     <div class="carousel-caption">
                         <h3>Then maybe Bootstrap</h3>
                         <p>We love the frameworks</p>
@@ -164,7 +163,23 @@
                 <h3>Wat u do?</h3>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
             </div>
-        </div>       
+        </div> 
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+              </div>      
     </div>
     <footer>
                 <!-- unorderd footer -->
@@ -191,11 +206,14 @@
                         <img src="img/github.png" height="25" width="25">
                     </a>
                 </li>
-            
-                
             </ul>
         </div>
 
     </footer>
-</body>
+</body> 
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </html>

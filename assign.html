@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style-main.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FootballFreaks</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#">Football World</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Recents</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">G.O.A.T.s<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://messi.com" target="_blank">Messi</a></li>
+                                <li><a href="#">Ronaldo</a></li>
+                                <li><a href="#">Ronaldinho</a></li>
+                                <li><a href="#">Kaka</a></li>
+                                <li><a href="#">Maradona</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Leagues</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <header class="jumbotron text-center">
+            <h1>Football</h1>
+            <p>Passion.Aggression.Talent.Trophies.</p> 
+        </header>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Slide navigators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            
+            <!-- The images inside carousel-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/skyp.png" alt="Chania"  width=100% >
+                    <div class="carousel-caption">
+                        <h3>HTML</h3>
+                        <p>Html is always the start.</p>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img src="img/pinkp.png" alt="CSS" width=100% >
+                    <div class="carousel-caption">
+                        <h3>CSS</h3>
+                        <p>Then comes CSS!</p>
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <img src="img/skyp.png" alt="Bootstrap" width=100% height=80%>
+                    <div class="carousel-caption">
+                        <h3>Then maybe Bootstrap</h3>
+                        <p>We love the frameworks</p>
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="wrapper">
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">What's next?</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h3 class="modal-title">Upcoming football stars</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <h4>Kylian Mbappe</h4>
+                                    A 19 year old youngster who plays from france has a lot of eyes on him.
+                                    Already with a world cup title in his name he has a promising future. 
+                                </div>
+                                <div class="col-sm-4">
+                                    <h4>Jadon Sancho</h4>
+                                    <p>can be seen nutmegging much more experienced football stars.</p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h4>Jao Felix</h4>
+                                    <p>All round player with nice dribbling abilites as well as shooting finesse.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Lead on with it.</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+        <main>
+                <div class="row goats">
+                    <div class="col-md-4">
+                        <h3>Messi!!</h3>
+                        
+                        <p>Luis Lionel Andres (“Leo”) Messi is an Argentinian soccer player who plays forward for the FC Barcelona club 
+                            and the Argentina national team. At the age of 13, Messi moved from Argentina to Spain after FC Barcelona agreed
+                             to pay for his medical treatment.There he earned renown as one of the greatest players in history, 
+                             helping his club win more than two dozen league titles and tournaments. 
+                             In 2012, he set a record for most goals in a calendar year, and in 2016, 
+                             he was named Europe's Ballon d'Or winner for the fifth time.
+                        </p>
+                        <img src="img/messi.jpg" alt="messi">
+
+                    </div>
+                    <div class="col-md-4">
+                            <h3>Ronaldo!!</h3>
+                            
+                            <p>Cristiano Ronaldo is a professional soccer player who has set records while playing for the Manchester United, 
+                                Real Madrid and Juventus clubs, as well as the Portuguese national team.
+                                Among his many accomplishments, he has won a record-tying five Ballon d'Or awards for player of the year, 
+                                and led Portugal to an emotional victory in the 2016 European Championship. 
+                                In July 2018, Ronaldo embarked on a new phase of his career by signing with Italian Serie A club Juventus.
+                                He is the deadliest goal-scorer ever witnessed in football.
+                            </p>
+                            <img src="img/ronaldo.jpg" alt="ronaldo">
+    
+                        </div>
+                        <div class="col-md-4">
+                                <h3>Neymar</h3>
+                                
+                                <p>Luis Lionel Andres (“Leo”) Messi is an Argentinian soccer player who plays forward for the FC Barcelona club 
+                                    and the Argentina national team. At the age of 13, Messi moved from Argentina to Spain after FC Barcelona agreed
+                                     to pay for his medical treatment.There he earned renown as one of the greatest players in history, 
+                                     helping his club win more than two dozen league titles and tournaments. 
+                                     In 2012, he set a record for most goals in a calendar year, and in 2016, 
+                                     he was named Europe's Ballon d'Or winner for the fifth time.
+                                </p>
+                                <img src="img/messi.jpg" alt="neymar">
+        
+                            </div>
+                </div>
+        </main>
+        <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#home" role="tab">History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Rules</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#contact" role="tab">Prestigious leagues</a>
+                </li>
+              </ul>
+              <div class="tab-content" >
+                <div class="tab-pane fade  active" id="home" role="tabpanel">Football (or soccer as the game is called in some parts 
+                    of the world) has a long history. Football in its current form arose in England in the middle of the 19th century. 
+                    But alternative versions of the game existed much earlier and are a part of the football history.
+                    The most admitted story tells that the game was developed in England in the 12th century. 
+                    In this century games that resembled football were played on meadows and roads in England. Besides from kicks, 
+                    the game involved also punches of the ball with the fist. 
+                    This early form of football was also much more rough and more violent than the modern way of playing. </div>
+                <div class="tab-pane fade" id="profile" role="tabpanel">The most admitted story tells that the game was developed in England 
+                    in the 12th century. In this century games that resembled football were played on meadows and roads in England. 
+                    Besides from kicks, the game involved also punches of the ball with the fist. 
+                    This early form of football was also much more rough and more violent than the modern way of playing. </div>
+                <div class="tab-pane fade" id="contact" role="tabpanel">.The most admitted story tells that the game was developed in England 
+                        in the 12th century. In this century games that resembled football were played on meadows and roads in England. 
+                        Besides from kicks, the game involved also punches of the ball with the fist. 
+                        This early form of football was also much more rough and more violent than the modern way of playing.</div>
+              </div>
+              
+        <div class="iframe-container">
+            <iframe width="600" height="500" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=santiago%20bernabeu&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+
+        </div>      
+    </div>
+    
+    <footer>
+                <!-- unorderd footer -->
+        <div class="fp-tableCell" >
+                            
+            <ul class ="foot" style="list-style-type:none;">
+                <li>
+                    <a href="https://www.facebook.com/StackRouteOfficial" >
+                        <img src="img/facebook1.png" height="25" width="25">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/stack_route" >
+                        <img src="img/twitter.png" height="25" width="25">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/stackroute" >
+                    <img src="img/linkedin.png" height="25" width="25">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/stackroute">
+                        <img src="img/github.png" height="25" width="25">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+</body> 
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</html>
